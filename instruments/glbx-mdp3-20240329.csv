@@ -1,0 +1,7 @@
+instrument_id,symbol,selected,records,trade_count,trade_buy,trade_sell,trade_unknown,fill_count,fill_buy,fill_sell,fill_unknown,min_price,max_price,adds,cancels,modifies,clears,snapshots,others
+118,ESU4,0,27,0,0,0,0,0,0,0,0,,,0,0,0,0,27,0
+4155,ESM4-ESU4,0,88,0,0,0,0,0,0,0,0,,,0,0,0,0,88,0
+5002,ESH5,0,3,0,0,0,0,0,0,0,0,,,0,0,0,0,3,0
+5602,ESM4,0,10481,0,0,0,0,0,0,0,0,,,0,0,0,0,10481,0
+46995,ESU4-ESZ4,0,26,0,0,0,0,0,0,0,0,,,0,0,0,0,26,0
+183748,ESZ4,0,15,0,0,0,0,0,0,0,0,,,0,0,0,0,15,0
