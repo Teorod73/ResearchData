@@ -1,0 +1,2 @@
+event_id,pre_partial,pre_buy,pre_sell,pre_trades,touch_delay,resting_def_t0,resting_def_1,resting_def_3,bids_t0,asks_t0,att_vol_1,counter_vol_1,buy_1,sell_1,trades_1,added_def_1,cancelled_def_1,filled_def_1,replenished_1,large_att_1,max_price_1,min_price_1,att_vol_3,counter_vol_3,buy_3,sell_3,trades_3,added_def_3,cancelled_def_3,filled_def_3,replenished_3,large_att_3,max_price_3,min_price_3
+20240923_1188_5769.7898_5771.2898_-1_1,0,590,334,405,26.288,1209,1193,1221,339,361,1,34,41,34,47,267,282,1,11,0,5767.5,5766.75,2,158,128,158,129,738,724,2,23,0,5767.5,5766.5
