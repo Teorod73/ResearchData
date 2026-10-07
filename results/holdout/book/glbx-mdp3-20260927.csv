@@ -1,0 +1,4 @@
+event_id,pre_partial,pre_buy,pre_sell,pre_trades,touch_delay,resting_def_t0,resting_def_1,resting_def_3,bids_t0,asks_t0,att_vol_1,counter_vol_1,buy_1,sell_1,trades_1,added_def_1,cancelled_def_1,filled_def_1,replenished_1,large_att_1,max_price_1,min_price_1,att_vol_3,counter_vol_3,buy_3,sell_3,trades_3,added_def_3,cancelled_def_3,filled_def_3,replenished_3,large_att_3,max_price_3,min_price_3
+20260928_1114_7779.4021_7779.4021_1_1,0,322,437,299,56.075,370,339,373,168,224,6,101,101,207,97,83,108,6,12,0,7783.5,7781.5,20,302,302,352,233,357,334,20,35,0,7783.5,7781.5
+20260928_1129_7779.0_7779.0_1_0,0,142,185,157,53.749,398,383,361,175,250,10,29,29,27,27,86,91,10,28,0,7782,7781.25,100,181,181,136,135,599,536,100,120,0,7782,7780
+20260928_1130_7775.75_7778.5_1_0,0,132,179,155,31.163,614,611,557,186,225,10,75,75,56,51,160,153,10,26,0,7781.75,7780.75,215,238,238,313,197,655,497,215,262,2,7781.75,7778.75
