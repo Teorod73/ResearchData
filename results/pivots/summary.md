@@ -19,49 +19,29 @@ Minden sor egy forduló (a 0,3 és 0,5 közös fordulója egyszer számít).
 | 2025 | rth | high | 562 | 326 | 236 | 72 | 61 |
 | 2025 | rth | low | 553 | 322 | 231 | 64 | 67 |
 
-Vizsgálható (night / rth, van kezdet és vég): 5203. Ebből az ablak 09:30 előtt kezdődik, de a forduló 09:30 után van: 25.
+Van kezdet és vég (night / rth): 5203. Kizárva, mert a High gyertyája a belépő gyertya (nincs egész perc a High előtt): 516, mert átnyúlik egy UTC napon: 19.
+**Vizsgált ablakok: 4668** (night 2978, rth 1690). Ebből az ablak 09:30 előtt kezdődik, de a forduló 09:30 után van: 25.
 
 ## Az ablak hossza (perc)
 
 | rész | n | medián előtte | q90 előtte | medián utána | q90 utána |
 |---|---|---|---|---|---|
-| night | 3397 | 3 | 9 | 5 | 13 |
-| rth | 1806 | 4 | 12 | 6 | 15 |
+| night | 2978 | 4 | 10 | 5 | 14 |
+| rth | 1690 | 5 | 12 | 6 | 15 |
 
-## k = (High - belépő nyitó + 20 tick) / ATR1
-
-A könyvsáv szorzója (N) legalább ekkora kell legyen, hogy a sáv minden esetben 20 tickkel a High fölé (Low alá) érjen.
+## A könyvsáv fele (tick): belépő nyitó +- (High - belépő nyitó + 20 tick)
 
 | csoport | n | medián | q90 | q95 | q99 | max |
 |---|---|---|---|---|---|---|
-| összes | 5203 | 5.83 | 11.18 | 13.45 | 17.44 | 56.48 |
-| night | 3397 | 7.16 | 12.52 | 14.67 | 18.39 | 56.48 |
-| rth | 1806 | 4.45 | 6.22 | 6.86 | 8.79 | 15.05 |
-| night high | 1692 | 7.35 | 12.90 | 14.91 | 18.09 | 23.70 |
-| night low | 1705 | 7.02 | 12.18 | 14.42 | 18.52 | 56.48 |
-| rth high | 914 | 4.65 | 6.40 | 6.88 | 8.23 | 13.16 |
-| rth low | 892 | 4.31 | 5.97 | 6.70 | 9.37 | 15.05 |
-
-A legnagyobb k értékek:
-
-| session | rész | típus | k | ATR1 | elmozdulás (ATR1) | perc előtte |
-|---|---|---|---|---|---|---|
-| 2024-05-14 | night | low | 56.48 | 0.65 | 48.79 | 0 |
-| 2025-08-26 | night | low | 33.91 | 0.73 | 27.06 | 0 |
-| 2024-06-19 | night | low | 24.21 | 0.23 | 2.20 | 2 |
-| 2024-07-12 | night | low | 23.98 | 0.97 | 18.82 | 0 |
-| 2024-05-28 | night | high | 23.70 | 0.25 | 3.95 | 1 |
-| 2024-02-12 | night | low | 23.48 | 0.26 | 3.91 | 3 |
-| 2025-06-05 | night | high | 22.49 | 1.83 | 19.76 | 0 |
-| 2024-02-09 | night | high | 21.90 | 0.27 | 3.65 | 5 |
-| 2024-07-04 | night | low | 21.67 | 0.27 | 2.83 | 3 |
-| 2024-04-10 | night | low | 21.39 | 0.27 | 2.79 | 2 |
+| összes | 4668 | 39 | 71 | 85 | 130 | 257 |
+| night | 2978 | 33 | 55 | 66 | 106 | 176 |
+| rth | 1690 | 52 | 85 | 103 | 159 | 257 |
 
 ATR1 (pont):
 
 | rész | medián | q10 | q90 |
 |---|---|---|---|
-| night | 1.16 | 0.53 | 3.00 |
-| rth | 2.94 | 1.57 | 5.74 |
+| night | 1.20 | 0.54 | 3.08 |
+| rth | 3.00 | 1.60 | 5.81 |
 
-Tx (másodperc) megtalálva: 5203 / 5203.
+Tx (másodperc) megtalálva: 4668 / 4668.
