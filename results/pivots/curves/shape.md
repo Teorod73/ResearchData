@@ -28,7 +28,7 @@ A görbék a csúcs oldalára tükrözve: High-nál a támadók a vevők, a véd
 | att_large | rth | 827 | 0.129 | 0.100 | 64 |
 | def_large | night | 1467 | 0.115 | 0.160 | 37 |
 | def_large | rth | 827 | 0.080 | 0.100 | 39 |
-| balance | night | 1467 | -0.154 | -0.176 | 65 |
-| balance | rth | 827 | -0.259 | -0.260 | 48 |
+| balance | night | 1467 | 0.030 | 0.019 | 74 |
+| balance | rth | 827 | 0.067 | 0.075 | 38 |
 | volume | night | 1467 | 1.347 | 1.335 | 53 |
 | volume | rth | 827 | 1.316 | 1.320 | 54 |
